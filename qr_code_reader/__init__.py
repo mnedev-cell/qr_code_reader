@@ -1,2 +1,4 @@
-from .qr_code_reader import QRCodeReader
+from .QrCodeReader import QRCodeReader
+
+
 

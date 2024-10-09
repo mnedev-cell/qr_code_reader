@@ -1,17 +1,20 @@
+
 from setuptools import setup, find_packages
 
+
 setup(
-    name="qr_code_reader",  # Your package name
-    version="0.1.0",
-    description="A simple QR Code Reader utility",
-    author="Your Name",
-    author_email="your.email@example.com",
-    packages=find_packages(),  # Automatically finds the qr_code_reader package
-    install_requires=[],  # Any dependencies can be listed here
+    name='qr-code-reader',
+    version='1.1.1',  # Increment the version number here
+    packages=find_packages(),
+    description='A simple QR code reader',
+    author='DEVMNE',
+    author_email='mne@yaposarl.ma',
+    url='https://github.com/mnedev-cell/qr_code_reader',
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
     ],
-    python_requires=">=3.6",
+    python_requires='>=3.6',
 )
+
